@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Valentine's Day</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: url(ju1.jpg) no-repeat center center/cover;
+      background-color: rgba(0, 0, 0, 0.5); /* Reduces brightness */
+      background-blend-mode: darken; /* Blends the color with the background image */
+      font-family: 'Arial', sans-serif;
+      color: white;
+    }
+
+    .container {
+      text-align: center;
+      animation: fadeIn 3s ease-in-out;
+    }
+
+    h1 {
+      font-size: 4rem;
+      font-weight: bold;
+      animation: textZoom 3s ease-in-out infinite alternate;
+    }
+
+    p {
+      font-size: 1.5rem;
+      margin-top: 1rem;
+      font-weight: bold;
+      animation: textZoom 3s ease-in-out infinite alternate;
+    }
+
+    img {
+      margin-top: 2rem;
+      max-width: 100px;
+      border-radius: 50%;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+      animation: textZoom 3s ease-in-out infinite alternate;
+    }
+
+    @keyframes fadeIn {
+      0% { opacity: 0; transform: scale(0.9); }
+      100% { opacity: 1; transform: scale(1); }
+    }
+
+    @keyframes textZoom {
+      0% { transform: scale(1); color: #ff69b4; }
+      100% { transform: scale(1.2); color: #ff1493; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Happy Valentine's Day Sayangkuu</h1>
+
+  </div>
+</body>
+</html>
